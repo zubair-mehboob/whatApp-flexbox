@@ -1,0 +1,135 @@
+/*For testing*/
+/* .test{
+    border: 1px solid black
+} */
+
+/*Main Code*/
+
+*{
+    padding: 0;
+    margin:0;
+}
+.container{
+    width: 100%;
+    background-color:rgb(9, 56, 9);
+    color:white;
+    
+}
+.wrapper-logo{
+    width: 98%;
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    }
+
+#search-icon{
+    margin-left:auto;
+    margin-right: 25px;
+}
+#setting-icon{
+     padding: 0px 10px 0px 0px;
+}
+#logo-text p{
+    font-size:23px;
+}
+
+menu{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 5px;
+    margin-top: 30px;
+    
+   
+
+}
+
+#cam-icon{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 7px;
+}
+#calls{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#status{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat:hover{
+    border-bottom: 2px solid white;
+}
+
+#calls:hover{
+    border-bottom: 2px solid white;
+}
+
+#status:hover{
+    border-bottom: 2px solid white;
+}
+
+.hidden{
+    display:none;
+}
+
+.show{
+    display: block;
+}
+
+
+/*Old Code Below For Chat Section*/
+
+section{
+    margin: 0px;
+}
+
+.dp{
+    height:100%;
+    
+    border-radius: 50%;
+    
+}
+
+.flex-container{
+    display: flex;
+    height:40px;
+    margin:25px 0px;
+
+}
+
+.flex-container p{
+    margin-left: auto;
+}
+.user-image{
+    width: 18%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.user-info{
+    display: flex;
+    border-bottom: 1px solid gray;
+    flex: 1;
+    align-items: center;
+    padding: 30px 10px 30px 0px;
+    
+}
+
